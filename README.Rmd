@@ -52,7 +52,7 @@ You can also embed plots, for example:
 plot(pressure)
 ```
 
-```{r,echo=TRUE}
+```{r,echo=FALSE}
 library(ggplot2)
 ggplot()+
   geom_point(aes(x=1,y=1))
